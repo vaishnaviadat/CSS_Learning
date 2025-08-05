@@ -1,0 +1,43 @@
+h3 {
+    font-size: 70px;
+    color: blue;
+    background-color: plum;
+}
+
+p {
+    font-size: 20px;
+    color: violet;
+    background-color: brown;
+}
+
+h1.text_decor_underline {
+    text-decoration: underline;
+}
+
+h1.text_decor_overline {
+    text-decoration: overline;
+}
+
+h1.text_decor_linethrought {
+    text-decoration: line-through;
+}
+
+h1.text_center {
+    text-align: center;
+}
+
+h1.text_right {
+    text-align: right;
+}
+
+h1.text_transform_uppercase {
+    text-transform: uppercase;
+}
+
+h1.text_transform_lowercase {
+    text-transform: lowercase;
+}
+
+h1.text_transform_capitalize {
+    text-transform: capitalize;
+}

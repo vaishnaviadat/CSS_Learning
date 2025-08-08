@@ -1,0 +1,33 @@
+.box{
+    width:220px;
+    height:80px;
+    background-color:gray;
+    border:2px double black;
+    margin-bottom:20px;
+    text-align:center;
+}
+.box1{
+        position:static;
+}
+.box2{
+    position: relative;
+    left:250px;
+    top:10px;
+
+}
+.box3{
+    position: absolute;
+    left:400px;
+    top:20px;
+
+}
+.box4{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.box5{
+        position: sticky;
+        top:30px;
+
+}

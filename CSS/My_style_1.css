@@ -57,3 +57,14 @@
     background: radial-gradient(circle at 100%, #1D1A39, #451952, #662549, #AE445A, #F39F5A, #E8BCB9);
     border-radius: 50%;
 }
+body{
+    background-image:url("/Images/portrait.jpg");
+
+    background-repeat:no-repeat;
+}
+.heading1{
+    text-align:left;
+    color: black;
+    font-size: 20px;
+    padding-top: 80px;
+}

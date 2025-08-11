@@ -61,10 +61,11 @@ body{
     background-image:url("/Images/portrait.jpg");
 
     background-repeat:no-repeat;
+    
 }
 .heading1{
     text-align:left;
     color: black;
-    font-size: 20px;
+    font-size: 50px;
     padding-top: 80px;
 }

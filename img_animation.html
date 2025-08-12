@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Animation</title>
+    <style>
+        .simple_animation {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-size: cover;       
+            background-position: center;  
+            animation: vaishnaaaa;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+        }
+
+        @keyframes vaishnaaaa {
+            0%   { background-image: url("Images/img1.jpeg"); left: 0px; top: 0px; }
+            25%  { background-image: url("Images/img2.png");     left: 300px; top: 0px; }
+            50%  { background-image: url("Images/Life1.jpg");     left: 300px; top: 300px; }
+            75%  { background-image: url("Images/mountains.webp");     left: 0px;   top: 300px; }
+            100% { background-image: url("Images/SD_img2.jpg");     left: 0px;   top: 0px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="simple_animation"></div>
+</body>
+</html>

@@ -6,23 +6,23 @@
     <title>Image Animation</title>
     <style>
         .simple_animation {
-            width: 200px;
-            height: 200px;
+            width: 100px;
+            height: 100px;
             position: relative;
             background-size: cover;       
             background-position: center;  
             animation: vaishnaaaa;
-            animation-duration:3s;
+            animation-duration:8s;
             animation-iteration-count:infinite;
         }
+@keyframes vaishnaaaa {
+    0%   { background-image: url("Images/img1.jpeg"); left: 0px; top: 0px; }
+    25%  { background-image: url("Images/img2.png"); left: 300px; top: 0px; }
+    50%  { background-image: url("Images/Life1.jpg"); left: 300px; top: 300px; }
+    75%  { background-image: url("Images/mountains.webp"); left: 0px; top: 300px; }
+    100% { background-image: url("Images/SD_img2.jpg"); left: 0px; top: 0px; }
+}
 
-        @keyframes vaishnaaaa {
-            0%   { background-image: url("Images/img1.jpeg"); left: 0px; top: 0px; }
-            25%  { background-image: url("Images/img2.png");     left: 300px; top: 0px; }
-            50%  { background-image: url("Images/Life1.jpg");     left: 300px; top: 300px; }
-            75%  { background-image: url("Images/mountains.webp");     left: 0px;   top: 300px; }
-            100% { background-image: url("Images/SD_img2.jpg");     left: 0px;   top: 0px; }
-        }
     </style>
 </head>
 <body>

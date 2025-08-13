@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-container{
+            display: flex;
+            justify-content: center;
+            font-size: 70px;
+            letter-spacing:4px ;
+            font-weight:900 ;
+            perspective: 100px;
+        }
+        .text-container> b{
+            height: 80px;
+            box-shadow: 0px 0px 2px gray;
+            background:linear-gradient(to right,indigo, mediumvioletred, gold) ;
+            background-clip: text;
+            color: transparent;
+            transform-origin:bottom;
+            transform: rotateY(-85deg);
+            animation: vaishnaa 10s infinite;
+
+        }
+        .text-container>b:nth-child(1)
+        {
+            animation-delay: 0s;
+        }
+
+         .text-container>b:nth-child(2)
+        {
+            animation-delay: 0.25s;
+        }
+
+         .text-container>b:nth-child(3)
+        {
+            animation-delay: 0.50s;
+        }
+
+         .text-container>b:nth-child(4)
+        {
+            animation-delay: 0.75s;
+        }
+
+         .text-container>b:nth-child(5)
+        {
+            animation-delay: 1s;
+        }
+
+         .text-container>b:nth-child(6)
+        {
+            animation-delay: 1.5s;
+        }
+
+         .text-container>b:nth-child(7)
+        {
+            animation-delay: 2s;
+        }
+
+         .text-container>b:nth-child(8)
+        {
+            animation-delay: 2.5s;
+        }
+         .text-container>b:nth-child(9)
+        {
+            animation-delay: 3s;
+        }
+        @keyframes vaishnaa{
+            from{transform:rotateX(-85deg)}
+            10%,50%{transform: rotateX(0);}
+            60%,to{transform:rotateX(-85deg)}
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <b>V</b>  <b>A</b>  <b>I</b>  <b>S</b>  <b>H</b>  <b>N</b>  <b>A</b>  <b>V</b>  <b>I</b>
+    </div>
+</body>
+</html>
